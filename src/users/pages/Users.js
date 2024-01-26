@@ -6,9 +6,8 @@ const Users = () => {
   const USERS = [
     {
       id: "u1",
-      image:
-        "https://static.scientificamerican.com/sciam/cache/file/2AE14CDD-1265-470C-9B15F49024186C10_source.jpg?w=900",
-      name: "Moon Ng",
+      image: "https://pages.cs.wisc.edu/~dng/DAN.jpg",
+      name: "Daniel Ng",
       places: 5,
     },
   ];
