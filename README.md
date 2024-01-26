@@ -1,1 +1,1 @@
-Social Media Site that allows users to upload images and descriptions
+Social Media Site that allows users to upload places they've visited along with descriptions
