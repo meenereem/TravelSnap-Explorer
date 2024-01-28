@@ -1,4 +1,5 @@
 import React from 'react';
+import {useParams} from 'react-router-dom';
 
 import PlaceList from '../components/PlaceList';
 
@@ -28,7 +29,10 @@ const dummyPlaces = [
 ]
 
 const UserPlaces = () => {
-    return <PlaceList items={dummyPlaces}/>
+    //holds dynamic parameter in the route path 
+    const userId = useParams().userId;
+    const loadedPlaces = dummyPlaces.filter(place => place.creator === userId);
+    return <PlaceList items={loadedPlaces}/>
 };
 
 export default UserPlaces;
